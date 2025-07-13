@@ -50,6 +50,8 @@
     <Compile Include="T1Q4.cs" />
     <Compile Include="T1Q5.cs" />
     <Compile Include="T1Q6.cs" />
+    <Compile Include="T1Q7.cs" />
+    <Compile Include="T1Q8.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
