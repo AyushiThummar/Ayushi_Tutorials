@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="T1Q10.cs" />
     <Compile Include="T1Q11.cs" />
+    <Compile Include="T1Q12.cs" />
     <Compile Include="T1Q3.cs" />
     <Compile Include="T1Q4.cs" />
     <Compile Include="T1Q5.cs" />
