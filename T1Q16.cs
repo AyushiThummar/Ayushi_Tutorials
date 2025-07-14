@@ -6,6 +6,9 @@ namespace Ayushi_Tutorials
     {
         public static void Main(string[] args)
         {
+            // Ex. 153 is an Armstrong number because :
+            //1³ +5³ +3³ = 1 + 125 + 27 = 153
+            
             Console.Write("Enter a number: ");
             int number = int.Parse(Console.ReadLine());
 
