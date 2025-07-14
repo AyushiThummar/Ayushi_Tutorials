@@ -52,6 +52,8 @@
     <Compile Include="T1Q13.cs" />
     <Compile Include="T1Q14.cs" />
     <Compile Include="T1Q15.cs" />
+    <Compile Include="T1Q16.cs" />
+    <Compile Include="T1Q17.cs" />
     <Compile Include="T1Q3.cs" />
     <Compile Include="T1Q4.cs" />
     <Compile Include="T1Q5.cs" />
