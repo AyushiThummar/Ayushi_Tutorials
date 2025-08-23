@@ -14,7 +14,7 @@ namespace Ayushi_Tutorials
             Console.WriteLine("Elements of array a1 :");
             for(int i = 0; i<a1.Length; i++)
             {
-                Console.Write(a1[i] + " ");
+                Console.WriteLine(a1[i] + " ");
             }
         }
     }
