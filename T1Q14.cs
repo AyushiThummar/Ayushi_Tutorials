@@ -7,29 +7,32 @@ namespace Ayushi_Tutorials
         public static void Main(string[] args)
         {
             Console.Write("INPUT : ");
-            string number = Console.ReadLine(); // Read number as string
-
-            Console.Write("OUTPUT: ");
-
-            foreach (char digit in number)
+            int no = Convert.ToInt32(Console.ReadLine());
+            int digit;
+            string output="";
+            while (no > 0)
             {
+                digit = no % 10;
+                no = no / 10;
+                string word = "";
                 switch (digit)
                 {
-                    case '0': Console.Write("Zero "); break;
-                    case '1': Console.Write("One "); break;
-                    case '2': Console.Write("Two "); break;
-                    case '3': Console.Write("Three "); break;
-                    case '4': Console.Write("Four "); break;
-                    case '5': Console.Write("Five "); break;
-                    case '6': Console.Write("Six "); break;
-                    case '7': Console.Write("Seven "); break;
-                    case '8': Console.Write("Eight "); break;
-                    case '9': Console.Write("Nine "); break;
-                    default: Console.Write("Invalid "); break;
+                    case 0: word = "Zero"; break;
+                    case 1: word = "One"; break;
+                    case 2: word = "Two"; break;
+                    case 3: word = "Three"; break;
+                    case 4: word = "Four"; break;
+                    case 5: word = "Five"; break;
+                    case 6: word = "Six"; break;
+                    case 7: word = "Seven"; break;
+                    case 8: word = "Eight"; break;
+                    case 9: word = "Nine"; break;
                 }
+
+                output = word + " " + output;
             }
 
-            Console.WriteLine(); // Move to next line
+            Console.WriteLine("OUTPUT: " + output.Trim());
         }
     }
 }
