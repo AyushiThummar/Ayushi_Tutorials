@@ -66,6 +66,32 @@
     <Compile Include="T1Q7.cs" />
     <Compile Include="T1Q8.cs" />
     <Compile Include="T1Q9.cs" />
+    <Compile Include="T2AQ1.cs" />
+    <Compile Include="T2AQ10.cs" />
+    <Compile Include="T2AQ2.cs" />
+    <Compile Include="T2AQ3.cs" />
+    <Compile Include="T2AQ4.cs" />
+    <Compile Include="T2AQ5.cs" />
+    <Compile Include="T2AQ5cs.cs" />
+    <Compile Include="T2AQ6.cs" />
+    <Compile Include="T2AQ7.cs" />
+    <Compile Include="T2AQ8.cs" />
+    <Compile Include="T2AQ9.cs" />
+    <Compile Include="T2Q1.cs" />
+    <Compile Include="T2Q10.cs" />
+    <Compile Include="T2Q11.cs" />
+    <Compile Include="T2Q12.cs" />
+    <Compile Include="T2Q13.cs" />
+    <Compile Include="T2Q14.cs" />
+    <Compile Include="T2Q15.cs" />
+    <Compile Include="T2Q2.cs" />
+    <Compile Include="T2Q3.cs" />
+    <Compile Include="T2Q4.cs" />
+    <Compile Include="T2Q5.cs" />
+    <Compile Include="T2Q6.cs" />
+    <Compile Include="T2Q7.cs" />
+    <Compile Include="T2Q8.cs" />
+    <Compile Include="T2Q9.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
